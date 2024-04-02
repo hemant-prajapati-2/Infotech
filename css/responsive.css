@@ -1,0 +1,568 @@
+@media screen and (max-width: 1139px) {
+    .navigaction>ul {
+        gap: 20px;
+    }
+
+    .navigaction>ul>li>a {
+        font-size: 14px;
+    }
+
+    #provide {
+        margin-top: 40px;
+    }
+    .col-website{
+        padding: 20px 15px;
+    }
+    .website{
+        padding-top: 20px;
+    }
+    .technology-section-list {
+        width: 50%;
+    }
+    .technology-section-img {
+        width: auto;
+    }
+    .technology-section-img img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+        object-position: center;
+    }
+    .button>a{
+        width: 90%;
+        font-size: 12px;
+    }
+    .provide-text h2 {
+        padding-bottom: 40px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .email {
+        width: 285px;
+    }
+
+    .website h5 {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .website-img img {
+        max-width: 80px;
+    }
+
+    .website>a {
+        width: 85px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    #consul {
+        margin-top: 80px;
+    }
+
+    .consul-text h2 {
+        font-size: 40px;
+    }
+
+    .button>a {
+        width: 130px;
+        height: 47px;
+        margin-top: 35px;
+    }
+
+    #technology-section {
+        padding-top: 65px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .technology-section-blog {
+        padding-bottom: 70px;
+    }
+
+    .projects-blog h3 {
+        font-size: 40px;
+    }
+
+    .projects-blog h5 {
+        font-size: 20px;
+    }
+
+    .vision-title {
+        padding: 50px 0;
+    }
+
+    .consul-img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .consul-img img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .consul-form-main {
+        position: relative;
+        padding: 50px 0;
+    }
+
+    .footer-bottom-text a {
+        font-size: 14px;
+    }
+
+    .legal ul li a {
+        font-size: 14px;
+    }
+
+    .vision-box h3 {
+        font-size: 33px;
+    }
+
+    .vision-box {
+        padding-bottom: 40px;
+    }
+
+    .technology-section-title p {
+        padding: 0 60px;
+        max-width: none;
+    }
+
+    .footer-bottom-main {
+        padding: 30px 0;
+    }
+
+    .vision-box p {
+        font-size: 14px;
+    }
+
+    .footer-main {
+        padding-bottom: 70px;
+    }
+
+    .technology-section-list ul li {
+        padding-bottom: 20px;
+    }
+
+    .projects-blog h5 {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    
+
+    /* .open-sub-manu + .manu-icon .fa:before {
+        content: "\f00d";       
+    } */
+    .manu-icon {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .manu-icon span {
+        height: 3px;
+        background: #fff;
+        width: 100%;
+        transition: all ease 0.5s;
+        margin-left: auto;
+    }
+
+    .manu-icon:before,
+    .manu-icon:after {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: 0;
+        height: 3px;
+        background: #fff;
+        width: 100%;
+        transition: all ease 0.5s;
+    }
+
+    .manu-icon:after {
+        top: auto;
+        bottom: 4px;
+    }
+
+    .open-sub-manu+.manu-icon span {
+        width: 0;
+    }
+
+    .open-sub-manu+.manu-icon:before {
+        transform: rotate(45deg);
+        top: 13px;
+    }
+
+    .open-sub-manu+.manu-icon:after {
+        transform: rotate(-45deg);
+        bottom: 14px;
+    }
+
+    .navigaction>ul {
+        position: fixed;
+        top: 155px;
+        right:-100%;
+        background: #4C7492;
+        width: 100%;
+        height: calc(100vh - 155px);
+        transition: all ease 0.5s;
+        display: block;
+        padding: 0 15px;
+    }
+    .navigaction.open-sub-manu >ul{
+        display: block;
+        right: 0;
+    }
+    .navigaction>ul>li{
+        border-bottom: 1px solid #000;
+        display: block;
+        padding: 5px 0;
+    }
+    .navigaction>ul>li>i{
+        position: absolute;
+        top: 8px;
+        right:0;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fixed-header .navigaction>ul {
+        top: 90px;
+        height: calc(100vh - 90px);
+    }
+    .navigaction .dropdown .dropdown-manu {
+        position: static;
+        display: none;
+    }
+    .dropdown.sab-menu .dropdown-manu {
+        display: block;
+        width: 100%;
+    }
+    .dropdown-manu .fa{
+        color: #fff;
+    }
+    body {
+        padding-top: 155px;
+    }
+
+    body.fixed-header {
+        padding-top: 92px;
+    }
+
+    .logo img {
+        max-width: 70px;
+    }
+
+    #provide {
+        margin-top: 35px;
+    }
+    .provide-text h2 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    .navigaction.open-sub-manu {
+        display: block;
+    }
+    .provide-main {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .col-website {
+        width: calc(50% - 10px);
+    }
+
+    .form-row {
+        column-gap: 15px;
+    }
+
+    .consul-text {
+        padding: none;
+    }
+
+    .consul-text h2 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+
+    .button>a {
+        width: 110px;
+        height: 40px;
+        margin-top: 28px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .technology-section-title h2 {
+        padding-bottom: 20px;
+    }
+
+    .projects-blog h3 {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    .projects-blog h5 {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
+    .vision-box-main {
+        gap: 20px;
+    }
+
+    .vision-box {
+        width: calc(50% - 10px);
+    }
+
+    .vision-box p {
+        font-size: 15px;
+    }
+
+    .footer-quick h5 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .footer-contact h5 {
+        font-size: 20px;
+    }
+
+    .footer-quick a {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .footer-contact p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .footer-bottom-main {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .footer-main {
+        padding-bottom: 50px;
+    }
+
+    .email {
+        width: 260px;
+    }
+
+    .email input::placeholder {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    body {
+        padding-top: 130px;
+    }
+
+    .logo img {
+        max-width: 55px;
+    }
+
+    .provide-text h2 {
+        padding-bottom: 25px;
+    }
+
+    body.fixed-header {
+        padding-top: 70px;
+    }
+
+    .header-bottom {
+        padding: 10px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .vision-title {
+        padding: 30px 0;
+    }
+
+    .vision-box-main {
+        flex-wrap: wrap;
+    }
+    .form-box {
+        width: calc(50% - 10px);
+    }
+    .form-row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .navigaction>ul{
+        top: 133px;
+        height: calc(100vh - 133px);
+    }
+    .fixed-header .navigaction>ul {
+        top: 68px;
+        height: calc(100vh - 68px);
+    }
+    .vision-box {
+        width: 100%;
+    }
+
+    .projects-main {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 40px 0;
+    }
+
+    .col-projects {
+        width: calc(50% - 10px);
+    }
+
+    .technology-section-blog {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin-top: 35px;
+    }
+
+    .technology-section-img {
+        width: 100%;
+    }
+
+    .technology-section-title p {
+        padding: 0 23px;
+    }
+
+    .technology-section-list .button>a {
+        margin-top: 25px;
+    }
+
+    .technology-section-list ul li {
+        padding-bottom: 15px;
+    }
+
+    #technology-section {
+        padding-top: 40px;
+    }
+
+    .col-website {
+        padding: 15px;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .footer-quick {
+        width: 50%;
+    }
+
+    .footer-contact p {
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .header-contant ul li a {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #fff;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 0;
+        padding: 0;
+
+    }
+
+    .header-contant .fa {
+        font-size: 20px;
+    }
+
+    .fixed-header .header-top {
+        margin-top: -65px;
+        transition: all ease 0.5s;
+    }
+
+    .header-top-main {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .technology-section-list {
+        width: 100%;
+    }
+
+    .technology-section-title p {
+        padding: 0 15px;
+    }
+
+    .col-projects {
+        width: 100%;
+    }
+
+    .footer-quick {
+        width: 100%;
+    }
+
+    .col-website {
+        width: 100%;
+    }
+
+    .consul-text h2 {
+        font-size: 25px;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    .technology-section-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .consul-form-main {
+        padding: 25px 0;
+    }
+
+    .consul-text h2 {
+        padding-bottom: 20px;
+    }
+
+    .form-box input::placeholder,
+    .form-row select {
+        font-size: 12px;
+    }
+
+}
